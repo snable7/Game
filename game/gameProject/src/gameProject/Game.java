@@ -263,7 +263,7 @@ public class Game extends JFrame {
 			g.setColor(Color.BLACK);
 			g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
 			g.setFont(new Font("Arial", Font.BOLD, 30));
-			g.drawString(GameDriver.SCORE.toString() + " / 76", 600, 165);	
+			g.drawString(GameDriver.SCORE.toString() + " / 139", 600, 165);	
 		}
 		paintComponents(g);
 		try {
